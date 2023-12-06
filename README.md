@@ -116,3 +116,4 @@ The result will be saved in the demo folder.
 Our backbone implementation is from
 - [Decision Transformer](https://github.com/kzl/decision-transformer)
 - [Preference Transformer](https://github.com/csmile-1006/PreferenceTransformer)
+- [Trajectory Transformer](https://github.com/JannerM/trajectory-transformer)
