@@ -1,6 +1,6 @@
 # Enhancing Offline Learning Models with Human Preferences
 
-Link to the paper: [here](https://drive.google.com/file/d/1Fh5PiMM6k-j4BWFHs4pFUrqltlDuW2Bb/view?usp=drive_link)
+Link to the paper: [here](https://drive.google.com/file/d/1L4eVsseg-rjYQwhN0rhZrJsqf37uDtmY/view?usp=sharing)
 
 Link to the video: [here](https://www.youtube.com/watch?v=J95IBloy2l4&feature=youtu.be)
 
