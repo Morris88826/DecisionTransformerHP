@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Plan File",
+            "type": "python",
+            "request": "launch",
+            // "program": "${file}",
+            "module": "scripts.plan",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--dataset",
+                "halfcheetah-medium-v2",
+                "--horizon",
+                "5",
+                "--beam_width",
+                "32"    
+            ]
+        },
+        {
+            "name": "Python: Train File",
+            "type": "python",
+            "request": "launch",
+            // "program": "${file}",
+            "module": "scripts.train",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--dataset",
+                "antmaze-medium-play-v2"
+            ]
+        },
+        {
+            "name": "Python: Train Pref File",
+            "type": "python",
+            "request": "launch",
+            // "program": "${file}",
+            "module": "scripts.train_pref",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--dataset",
+                "hopper-medium-expert-v2"
+            ]
+        }
+    ]
+}

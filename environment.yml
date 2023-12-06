@@ -1,0 +1,20 @@
+name: dthp
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.8
+- pip
+- patchelf
+- pip:
+    - -f https://download.pytorch.org/whl/torch_stable.html
+    - numpy
+    - gym
+    - mujoco-py
+    - matplotlib
+    - torch
+    - typed-argument-parser
+    - git+https://github.com/Farama-Foundation/d4rl@f2a05c0d66722499bf8031b094d9af3aea7c372b#egg=d4rl
+    - scikit-image
+    - scikit-video
+    - gitpython
