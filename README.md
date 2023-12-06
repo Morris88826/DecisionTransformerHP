@@ -5,14 +5,14 @@ Link to the video:
 
 ## Overview
 Here is the overview of the architecture of our Decision Transformer with Human Preference model (DTHP).
-![Model Overview](https://hackmd.io/_uploads/SJyqtHTBT.png)
+![Model Overview](https://github.com/Morris88826/DecisionTransformerHP/assets/32810188/4e92f7ff-8f52-41e6-82aa-4942cd21c4ef)
 
 The main idea of our model is based on the [Decision Transformer](https://arxiv.org/pdf/2106.01345.pdf) while integrating the idea of having human preference embeddings to address the biases associated with determining the return-to-go, a notable issue in the context of the Decision Transformer. 
 
 We use the [Preference Transformer](https://arxiv.org/pdf/2303.00957.pdf) for analzing the past trajectory and generate the a human preference score that will be further put into our Human Preference Integration Layer that combines it with the return-to-go. Here is the structure of our Human Preference Integration Layer.
 
 <p align="center">
-    <img src="https://hackmd.io/_uploads/HkmtoraBa.png"  width="30%">
+    <img src="https://github.com/Morris88826/DecisionTransformerHP/assets/32810188/bdeca022-968c-47ac-846b-f72f1bd6e159"  width="30%">
 </p>
 
 We show that when trained on D4RL benchmarks with suboptimal rewards-to-go, our
