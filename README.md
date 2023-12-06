@@ -60,7 +60,7 @@ pip install -r requirements.txt
 cd ./decision-transformer-hp/data
 python download_d4rl_datasets.py
 ```
-- D4RL with human preferences: [here](https://drive.google.com/drive/folders/1iAuLOMRdWH_HY4zDMqGDx_EC8mrRypAt?usp=drive_link)
+- D4RL with human preferences: [here](https://drive.google.com/drive/folders/1Ep1xnN_32VqEYym1LSkvUvausyCZSgKj?usp=drive_link)
 
 #### Model Weights
 - DTHP: [here](https://drive.google.com/drive/folders/1iAuLOMRdWH_HY4zDMqGDx_EC8mrRypAt?usp=drive_link)
