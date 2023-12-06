@@ -64,6 +64,7 @@ cd ./decision-transformer-hp/data
 python download_d4rl_datasets.py
 ```
 - D4RL with human preferences: [here](https://drive.google.com/drive/folders/1Ep1xnN_32VqEYym1LSkvUvausyCZSgKj?usp=drive_link)
+- Move the dataset into  ``` ./decision-transformer-hp/data ```
 
 #### Model Weights
 - DTHP: [here](https://drive.google.com/drive/folders/1iAuLOMRdWH_HY4zDMqGDx_EC8mrRypAt?usp=drive_link)
@@ -73,11 +74,15 @@ python download_d4rl_datasets.py
 ### Train
 ```
 cd decision-transformer-hp
-python experiment.py
+python experiment.py --env {env_name} --embed_hf --hf_model_path {preference transformer weight path} --from_d4rl
 ```
 
 ### Inference
-
+Set ```--replay``` flag to generate trajectories record for visualization
+```
+cd decision-transformer-hp
+python experiment.py --env {env_name} --embed_hf --hf_model_path {preference transformer weight path} --from_d4rl --inference_only --replay 
+```
 
 ### Visualization
 Here we also provide the code for showing the sampled trajectory from inference time.
