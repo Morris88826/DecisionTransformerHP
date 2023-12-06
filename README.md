@@ -1,7 +1,8 @@
 # Enhancing Offline Learning Models with Human Preferences
 
-Link to the paper: https://www.overleaf.com/project/6514bfd3fe326dbd8582e800
-Link to the video: 
+Link to the paper: [here](https://drive.google.com/file/d/1Fh5PiMM6k-j4BWFHs4pFUrqltlDuW2Bb/view?usp=drive_link)
+
+Link to the video: [here](https://www.youtube.com/watch?v=J95IBloy2l4&feature=youtu.be)
 
 ## Overview
 Here is the overview of the architecture of our Decision Transformer with the Human Preference model (DTHP).
