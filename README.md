@@ -17,9 +17,12 @@ We use the [Preference Transformer](https://arxiv.org/pdf/2303.00957.pdf) for an
 
 We show that when trained on D4RL benchmarks with suboptimal rewards-to-go, our
 model outperforms the vanilla Decision Transformer on both the hopper-medium-
-expert and the walker2d-medium-expert dataset
+expert and the walker2d-medium-expert datasets.
 
 ## Get Started
+
+### Colab Notebook Demo
+For a quick self-contained way to run our code, simply upload the Jupyter notebook (train_colab.ipynb) into Google Colab and run every cell. To use a different dataset, uncomment the appropriate code in the block right above the main training block, titled "Download dataset (subset) from HF Datasets". You will be prompted with Weights & Biases to enter your authorization key - simply follow the instructions provided and hit 'enter'.
 
 ### Download mujoco
 1. Download the MuJoCo version 2.1 binaries for [Linux](https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz) or [OSX](https://mujoco.org/download/mujoco210-macos-x86_64.tar.gz).
